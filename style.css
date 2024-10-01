@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 500ms easy;
+
+  &:hover {
+    color: chartreuse;
+    transform: scale(1.07);
+  }
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+h2 {
+  margin-bottom: 15px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+img {
+  width: 400px;
+  height: 250px;
+}
+
+section {
+  height: 105dvh;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  line-height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  block-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+  }
+}
+
+div > .text {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+div > .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    width: 600px;
+    height: 600px;
+}
+
+#menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/travel.jpg");
+}
+
+#australia {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/australia.jpg");
+}
+
+#america {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/america.jpg");
+}
+
+#france {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/france.jpg");
+}
+
+#korea {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/korea.jpg");
+}
+
+#china {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/china.jpg");
+}
+
+#japan {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/japan.jpg");
+}
